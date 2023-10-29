@@ -1,6 +1,6 @@
 ---
 - name: Execute echo command and display output
-  hosts: TEST
+  hosts: all
   gather_facts: no
   tasks:
     - name: Execute echo command
